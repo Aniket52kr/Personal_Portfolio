@@ -38,7 +38,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         object[key] = value;
     });
     let json = JSON.stringify(object);
-    
+
     fetch('http://localhost:3000/contact', {  // Replace with your server endpoint
         method: 'POST',
         headers: {
@@ -65,17 +65,7 @@ if (window.particlesJS) {
     });
 }
 
-// // Tilt.js Initialization
-// document.querySelectorAll('.tilt').forEach(el => {
-//     VanillaTilt.init(el, {
-//         max: 25,
-//         speed: 400,
-//         glare: true,
-//         'max-glare': 0.5
-//     });
-// });
-
-
+// VanillaTilt Initialization
 document.addEventListener('DOMContentLoaded', (event) => {
     const tiltElements = document.querySelectorAll('.tilt');
     VanillaTilt.init(tiltElements, {
