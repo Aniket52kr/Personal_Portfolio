@@ -6,8 +6,9 @@ const app = express();
 const port = 3000;
 
 // Middleware
-app.use(bodyParser.json());
 app.use(cors());
+app.use(bodyParser.json());
+
 
 // Endpoint to handle form submissions
 app.post('/contact', (req, res) => {
