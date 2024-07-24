@@ -29,7 +29,7 @@ scrollTopBtn.addEventListener('click', function() {
     });
 });
 
-// Form Submission Handling
+// // Form Submission Handling
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     let formData = new FormData(this);
