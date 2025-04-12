@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Typed.js Effect
     new Typed(".typing-text", {
-        strings: ["frontend developer", "backend developer", "web designer", "full stack developer"],
+        strings: ["frontend developer", "backend developer", "web designer", "full stack developer","Software Developer"],
         loop: true,
         typeSpeed: 50,
         backSpeed: 25,
