@@ -102,4 +102,13 @@ document.addEventListener("DOMContentLoaded", function () {
     srtop.reveal(".experience .timeline .container", { interval: 400 });
     srtop.reveal(".contact .container", { delay: 400 });
     srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+
+
+
+
+    // Resume Download Functionality
+    document.getElementById("downloadResumeBtn").addEventListener("click", function(event) {
+        // Don't prevent default - let the natural download work
+    });
 });
